@@ -63,3 +63,15 @@ margin-right: .4em;
 	margin-right: auto;
 	width: 800px;
 }
+
+#footer {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	width: 800px;
+	margin-top: 800px;
+}
+
+#github {
+	margin-left: 20em;
+}
