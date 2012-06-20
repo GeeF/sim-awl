@@ -8,3 +8,5 @@ gwt-unitCache
 deploy
 *.js
 hosted.html
+.gwt-log
+SimAWL/war/simawl
