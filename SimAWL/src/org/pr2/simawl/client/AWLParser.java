@@ -142,14 +142,4 @@ public class AWLParser {
 		this.output[this.output.length - 1] = this.VKE;
 		return this.output;
 	}
-
-	public static void main(String[] args) {
-		AWLParser as = new AWLParser(10, 10);
-
-		boolean in[] = new boolean[2];
-		in[0] = true;
-		in[1] = false;
-		as.parse("U E 1.0 \nU E 1.1 \n= A 4.0", in);
-		System.out.println(as.VKE);
-	}
 }
