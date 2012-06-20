@@ -88,11 +88,11 @@ public class SimAWL implements EntryPoint {
 		
 		VerticalPanel vPnl_left = new VerticalPanel();
 		rootPanel.add(vPnl_left, 0, 0);
-		vPnl_left.setSize("388px", "688px");
+		vPnl_left.setSize("388px", "550px");
 		
 		final TextArea textArea = new TextArea();
 		vPnl_left.add(textArea);
-		textArea.setSize("365px", "438px");
+		textArea.setSize("365px", "400px");
 		textArea.setText("U E 1.0\nU E 1.1\n= A 1.0"); // default code
 		
 		Button btnParse = new Button("Parse");
